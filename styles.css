@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 50px;
+    background-image: url('assets/img/WhatsApp\ Image\ 2024-04-06\ at\ 19.55.38.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  canvas {
+    border: 2px solid black;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(188, 17, 17);
+  }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+      font-size: 16px;
+    }
+    
+    canvas {
+      margin-bottom: 20px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 15px;
+    }
+  }
+  
